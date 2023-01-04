@@ -68,59 +68,59 @@
             <!--------------------- Enquiry ID ------------------------------------------>
             <tr>
                 <td>Enquiry ID</td>
-                <td><input type="text" name="f_enquiry_id" maxlength="50"placeholder="Enquiry ID" require />
+                <td><input type="text" name="f_enquiry_id" maxlength="50"placeholder="Enquiry ID" required />
                 </td>
             </tr>
             <!--------------------- Registration ID ------------------------------------------>
             <tr>
                 <td>Registration ID</td>
-                <td><input type="text" name="f_registration_id" maxlength="50"placeholder="Registration ID" require />
+                <td><input type="text" name="f_registration_id" maxlength="50"placeholder="Registration ID" required />
                 </td>
             </tr>
             <!--------------------- First Name ------------------------------------------>
             <tr>
                 <td>First Name</td>
-                <td><input type="text" name="f_first_name" maxlength="50"placeholder="First Name" require />
+                <td><input type="text" name="f_first_name" maxlength="50"placeholder="First Name" required />
                 </td>
             </tr>
             <!--------------------- Middle Name ------------------------------------------>
             <tr>
                 <td>Middle Name</td>
-                <td><input type="text" name="f_middle_name" maxlength="50"placeholder="Middle Name" require />
+                <td><input type="text" name="f_middle_name" maxlength="50"placeholder="Middle Name" required />
                 </td>
             </tr>
             <!------------------------ Last Name --------------------------------------->
             <tr>
                 <td>Last Name</td>
-                <td><input type="text" name="f_last_name" maxlength="50" placeholder="Last Name" require />
+                <td><input type="text" name="f_last_name" maxlength="50" placeholder="Last Name" required />
                 </td>
             </tr>
             <!-------------------------- Email ID ------------------------------------->
             <tr>
                 <td>Email ID</td>
-                <td><input type="email" name="f_email_id" maxlength="100" placeholder="Email ID" require /></td>
+                <td><input type="email" name="f_email_id" maxlength="100" placeholder="Email ID" required /></td>
             </tr>
             <!-------------------------- Mobile Number ------------------------------------->
             <tr>
                 <td>Mobile Number</td>
                 <td>
-                    <input type="text" name="f_mobile_number" maxlength="15" placeholder="1234567890" require />
+                    <input type="text" name="f_mobile_number" maxlength="15" placeholder="1234567890" required />
                 </td>
             </tr>
              <!-------------------------- Alternate Number ------------------------------------->
              <tr>
                 <td>Alternate Number</td>
                 <td>
-                    <input type="text" name="f_alternate_number" maxlength="15" placeholder="1234567890" require />
+                    <input type="text" name="f_alternate_number" maxlength="15" placeholder="1234567890" required />
                 </td>
             </tr>
             <!---------------------- Gender ------------------------------------->
             <tr>
                 <td>Gender</td>
                 <td>
-                    <input type="radio" name="f_gender" value="Male" require />
+                    <input type="radio" name="f_gender" value="Male" required />
                     Male
-                    <input type="radio" name="f_gender" value="Female" require />
+                    <input type="radio" name="f_gender" value="Female" required />
                     Female
                 </td>
             </tr>
@@ -128,42 +128,42 @@
             <tr>
                 <td>Date of Birth</td>
                 <td>
-                    <input type="date" name="f_date_of_birth" require />
+                    <input type="date" name="f_date_of_birth" required />
                     </td>
             </tr>
             <!------------------------- Address ---------------------------------->
             <tr>
                 <td>Address<br /><br /><br /></td>
-                <td><textarea name="f_address" rows="6" cols="50" require ></textarea></td>
+                <td><textarea name="f_address" rows="6" cols="50" required ></textarea></td>
             </tr>
             <!-------------------------- City ------------------------------------->
             <tr>
                 <td>City</td>
-                <td><input type="text" name="f_city" maxlength="50" require />
+                <td><input type="text" name="f_city" maxlength="50" required />
                 </td>
             </tr>
             <!----- -------------------- Pin Code-------------------------------------->
             <tr>
                 <td>Pin Code</td>
-                <td><input type="text" name="f_pinCode" maxlength="6" require />
+                <td><input type="text" name="f_pinCode" maxlength="6" required />
                 </td>
             </tr>
             <!---------------------------- State ----------------------------------->
             <tr>
                 <td>State</td>
-                <td><input type="text" name="f_state" maxlength="50" require />
+                <td><input type="text" name="f_state" maxlength="50" required />
                 </td>
             </tr>
             <!------------------------------ Country --------------------------------->
             <tr>
                 <td>Country</td>
-                <td><input type="text" name="f_country" require/></td>
+                <td><input type="text" name="f_country" required /></td>
             </tr>
             <!-----------------------Qualification---------------------------------------->
             <tr>
                 <td>Qualification</td>
                 <td>    
-                    <select class="form-select" aria-label="Default select example" name="f_qualification" require >
+                    <select class="form-select" aria-label="Default select example" name="f_qualification" required >
                         <option selected>---select---</option>
                         <option value="1">SSC</option>
                         <option value="2">HSC</option>
@@ -176,12 +176,12 @@
                 </td>
             </tr>
             <td>Qualification Specialization</td>
-            <td><input type="text" name="f_qualification_specialization" maxlength="100" require />
+            <td><input type="text" name="f_qualification_specialization" maxlength="100" required />
             <!---------------------------- Courses ----------------------------------->
             <tr>
                 <td>Courses</td>
                 <td>
-                    <select class="form-select" aria-label="Default select example" name="f_courses" require >
+                    <select class="form-select" aria-label="Default select example" name="f_courses" required >
                         <option selected>---select---</option>
                         <option value="1">Data Science</option>
                         <option value="2">Programing Language</option>
@@ -199,7 +199,7 @@
                 </td>
             </tr>
             <td>Courses Applied For</td>
-            <td><input type="text" name="f_courses_applied" maxlength="100" require />
+            <td><input type="text" name="f_courses_applied" maxlength="100" required />
             <!----------------------- Submit and Reset ------------------------------->
             <tr>
                 <td colspan="2" align="center">
